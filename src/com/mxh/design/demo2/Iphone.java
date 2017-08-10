@@ -1,8 +1,15 @@
 package com.mxh.design.demo2;
 
+/**
+ * 鑻规灉鎵嬫満
+ */
 public class Iphone {
-	
+
+	/**
+	 * 鍏呯數
+	 * @param port
+	 */
 	public void charge(SmallPort port){
-		System.out.println("苹果手机"+port.useSmallPort()+"充电中");
+		System.out.println("鑻规灉鎵嬫満浣跨敤"+port.useSmallPort()+"鍏呯數");
 	}
 }

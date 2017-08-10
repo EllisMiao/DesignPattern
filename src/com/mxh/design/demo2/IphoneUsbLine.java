@@ -1,7 +1,7 @@
 package com.mxh.design.demo2;
 
 /**
- * iphoneÊı¾İÏß
+ * è‹¹æœæ•°æ®çº¿
  * @author S
  *
  */
@@ -10,7 +10,7 @@ public class IphoneUsbLine implements SmallPort{
 	@Override
 	public String useSmallPort() {
 		// TODO Auto-generated method stub
-		return "Ê¹ÓÃÆ»¹ûÊı¾İÏß";
+		return "è‹¹æœæ•°æ®çº¿";
 	}
 
 	

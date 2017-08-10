@@ -1,22 +1,22 @@
 package com.mxh.design.demo2;
 
 /**
- * Æ»¹ûÊı¾İÏß×ªAndroidÊı¾İÏß×ª¼äÍ·
+ * è½¬æ¢å™¨
  * @author S
  *
  */
-public class UsbAdapter  implements BigPort{
+public class UsbAdapter  implements SmallPort{
 
-	private SmallPort port;
+	private BigPort port;
 	
-	public UsbAdapter(SmallPort port){
+	public UsbAdapter(BigPort port){
 		this.port = port;
 	}
 
 	@Override
-	public String useBigPort() {
+	public String useSmallPort() {
 		// TODO Auto-generated method stub
-		return port.useSmallPort();
+		return port.useBigPort();
 	}
 
 }

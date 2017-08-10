@@ -1,11 +1,14 @@
 package com.mxh.design.demo1;
 
+/**
+ * 瑙傚療鑰匓
+ */
 public class B implements Observer{
 
 	@Override
 	public void update(String content) {
 		// TODO Auto-generated method stub
-		System.out.println("我是B,我接收到的信息："+content);
+		System.out.println("鎴戞槸B,鎴戞帴鏀跺埌鐨勪俊鎭細"+content);
 	}
 	
 }

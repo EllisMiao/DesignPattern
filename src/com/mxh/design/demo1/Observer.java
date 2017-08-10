@@ -1,8 +1,11 @@
 package com.mxh.design.demo1;
 
+/**
+ * è§‚å¯Ÿè€…æ¥å£
+ */
 public interface Observer {
 	/**
-	 * ¸üĞÂÄÚÈİ
+	 * æ›´æ–°å†…å®¹
 	 * @param content
 	 */
 	public void update(String content);

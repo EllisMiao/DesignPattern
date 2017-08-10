@@ -1,7 +1,7 @@
 package com.mxh.design.demo1;
 
 /**
- * ¹Û²ìÕßÄ£Ê½
+ * è§‚å¯Ÿè€…æ¨¡å¼
  * @author S
  *
  */
@@ -10,14 +10,14 @@ public class Main {
 		WeChatPlatform platform = new WeChatPlatform();
 		A a = new A();
 		B b = new B();
-		//ÓÃ»§¶©ÔÄÆ½Ì¨£¬Ìí¼Ó¹Û²ìÕß
+		//ç”¨æˆ·è®¢é˜…å¹³å°ï¼Œæ·»åŠ è§‚å¯Ÿè€…
 		platform.register(a);
 		platform.register(b);
-		//·¢ËÍÏûÏ¢¸ø¶©ÔÄÕß
-		platform.notifyMessage("ÉÏÎçÌìÆøºÜºÃ");
-		//ÓÃ»§È¡Ïû¶©ÔÄÆ½Ì¨£¬ÒÆ³ı¹Û²ìÕß
+		//å‘é€æ¶ˆæ¯ç»™è®¢é˜…è€…
+		platform.notifyMessage("ä¸Šåˆå¤©æ°”å¾ˆå¥½");
+		//ç”¨æˆ·å–æ¶ˆè®¢é˜…å¹³å°ï¼Œç§»é™¤è§‚å¯Ÿè€…
 		platform.unregister(a);
-		//·¢ËÍÏûÏ¢¸ø¶©ÔÄÕß
-		platform.notifyMessage("ÏÂÎçÒªÏÂÓê");
+		//å‘é€æ¶ˆæ¯ç»™è®¢é˜…è€…
+		platform.notifyMessage("ä¸‹åˆè¦ä¸‹é›¨");
 	}
 }

@@ -1,8 +1,15 @@
 package com.mxh.design.demo2;
 
+/**
+ * android鎵嬫満
+ */
 public class Android {
-	
+
+	/**
+	 * 鍏呯數
+	 * @param port
+	 */
 	public void charge(BigPort port){
-		System.out.println("Android手机使用"+port.useBigPort()+"充电中");
+		System.out.println("Android鎵嬫満浣跨敤"+port.useBigPort()+"鍏呯數");
 	}
 }

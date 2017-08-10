@@ -1,25 +1,25 @@
 package com.mxh.design.demo1;
 
 /**
- * Æ½Ì¨½Ó¿Ú
+ * å¹³å°æ¥å£
  * @author S
  *
  */
 public interface Platform {
 	/**
-	 * Ìí¼Ó¹Û²ìÕß
+	 * æ³¨å†Œè§‚å¯Ÿè€…
 	 * @param o
 	 */
 	public void register(Observer o);
 	
 	/**
-	 * ÒÆ³ı¹Û²ìÕß
+	 * ç§»é™¤è§‚å¯Ÿè€…
 	 * @param o
 	 */
 	public void unregister(Observer o);
 	
 	/**
-	 * Í¨Öª¹Û²ìÕß
+	 * Í¨Öªé€šçŸ¥è§‚å¯Ÿè€…
 	 * @param content
 	 */
 	public void notifyMessage(String content);
